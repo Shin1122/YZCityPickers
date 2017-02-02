@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54AE9E831E40DB0E00E8BF03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E821E40DB0E00E8BF03 /* main.m */; };
+		54AE9E861E40DB0E00E8BF03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E851E40DB0E00E8BF03 /* AppDelegate.m */; };
+		54AE9E891E40DB0E00E8BF03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E881E40DB0E00E8BF03 /* ViewController.m */; };
+		54AE9E8C1E40DB0E00E8BF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AE9E8A1E40DB0E00E8BF03 /* Main.storyboard */; };
+		54AE9E8E1E40DB0E00E8BF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AE9E8D1E40DB0E00E8BF03 /* Assets.xcassets */; };
+		54AE9E911E40DB0E00E8BF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AE9E8F1E40DB0E00E8BF03 /* LaunchScreen.storyboard */; };
+		54AE9E9C1E40DB0E00E8BF03 /* YZCityPickersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E9B1E40DB0E00E8BF03 /* YZCityPickersTests.m */; };
+		54AE9EA71E40DB0E00E8BF03 /* YZCityPickersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9EA61E40DB0E00E8BF03 /* YZCityPickersUITests.m */; };
+		54AE9EB61E40DB6800E8BF03 /* PickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9EB51E40DB6800E8BF03 /* PickersViewController.m */; };
+		54AE9EBC1E40F28500E8BF03 /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54AE9EBB1E40F28500E8BF03 /* CityData.plist */; };
+		54AE9EBF1E40FFD400E8BF03 /* YZCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9EBE1E40FFD400E8BF03 /* YZCityModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54AE9E981E40DB0E00E8BF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AE9E761E40DB0E00E8BF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AE9E7D1E40DB0E00E8BF03;
+			remoteInfo = YZCityPickers;
+		};
+		54AE9EA31E40DB0E00E8BF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AE9E761E40DB0E00E8BF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AE9E7D1E40DB0E00E8BF03;
+			remoteInfo = YZCityPickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54AE9E7E1E40DB0E00E8BF03 /* YZCityPickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZCityPickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AE9E821E40DB0E00E8BF03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54AE9E841E40DB0E00E8BF03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54AE9E851E40DB0E00E8BF03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54AE9E871E40DB0E00E8BF03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54AE9E881E40DB0E00E8BF03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54AE9E8B1E40DB0E00E8BF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54AE9E8D1E40DB0E00E8BF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54AE9E901E40DB0E00E8BF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54AE9E921E40DB0E00E8BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AE9E971E40DB0E00E8BF03 /* YZCityPickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZCityPickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AE9E9B1E40DB0E00E8BF03 /* YZCityPickersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCityPickersTests.m; sourceTree = "<group>"; };
+		54AE9E9D1E40DB0E00E8BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AE9EA21E40DB0E00E8BF03 /* YZCityPickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZCityPickersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AE9EA61E40DB0E00E8BF03 /* YZCityPickersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCityPickersUITests.m; sourceTree = "<group>"; };
+		54AE9EA81E40DB0E00E8BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AE9EB41E40DB6800E8BF03 /* PickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickersViewController.h; sourceTree = "<group>"; };
+		54AE9EB51E40DB6800E8BF03 /* PickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickersViewController.m; sourceTree = "<group>"; };
+		54AE9EBB1E40F28500E8BF03 /* CityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityData.plist; sourceTree = "<group>"; };
+		54AE9EBD1E40FFD400E8BF03 /* YZCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCityModel.h; sourceTree = "<group>"; };
+		54AE9EBE1E40FFD400E8BF03 /* YZCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCityModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AE9E7B1E40DB0E00E8BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E941E40DB0E00E8BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E9F1E40DB0E00E8BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54AE9E751E40DB0E00E8BF03 = {
+			isa = PBXGroup;
+			children = (
+				54AE9E801E40DB0E00E8BF03 /* YZCityPickers */,
+				54AE9E9A1E40DB0E00E8BF03 /* YZCityPickersTests */,
+				54AE9EA51E40DB0E00E8BF03 /* YZCityPickersUITests */,
+				54AE9E7F1E40DB0E00E8BF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54AE9E7F1E40DB0E00E8BF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9E7E1E40DB0E00E8BF03 /* YZCityPickers.app */,
+				54AE9E971E40DB0E00E8BF03 /* YZCityPickersTests.xctest */,
+				54AE9EA21E40DB0E00E8BF03 /* YZCityPickersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54AE9E801E40DB0E00E8BF03 /* YZCityPickers */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9EBB1E40F28500E8BF03 /* CityData.plist */,
+				54AE9E841E40DB0E00E8BF03 /* AppDelegate.h */,
+				54AE9E851E40DB0E00E8BF03 /* AppDelegate.m */,
+				54AE9E871E40DB0E00E8BF03 /* ViewController.h */,
+				54AE9E881E40DB0E00E8BF03 /* ViewController.m */,
+				54AE9E8A1E40DB0E00E8BF03 /* Main.storyboard */,
+				54AE9E8D1E40DB0E00E8BF03 /* Assets.xcassets */,
+				54AE9E8F1E40DB0E00E8BF03 /* LaunchScreen.storyboard */,
+				54AE9E921E40DB0E00E8BF03 /* Info.plist */,
+				54AE9E811E40DB0E00E8BF03 /* Supporting Files */,
+				54AE9EBD1E40FFD400E8BF03 /* YZCityModel.h */,
+				54AE9EBE1E40FFD400E8BF03 /* YZCityModel.m */,
+				54AE9EB41E40DB6800E8BF03 /* PickersViewController.h */,
+				54AE9EB51E40DB6800E8BF03 /* PickersViewController.m */,
+			);
+			path = YZCityPickers;
+			sourceTree = "<group>";
+		};
+		54AE9E811E40DB0E00E8BF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9E821E40DB0E00E8BF03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54AE9E9A1E40DB0E00E8BF03 /* YZCityPickersTests */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9E9B1E40DB0E00E8BF03 /* YZCityPickersTests.m */,
+				54AE9E9D1E40DB0E00E8BF03 /* Info.plist */,
+			);
+			path = YZCityPickersTests;
+			sourceTree = "<group>";
+		};
+		54AE9EA51E40DB0E00E8BF03 /* YZCityPickersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9EA61E40DB0E00E8BF03 /* YZCityPickersUITests.m */,
+				54AE9EA81E40DB0E00E8BF03 /* Info.plist */,
+			);
+			path = YZCityPickersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AE9E7D1E40DB0E00E8BF03 /* YZCityPickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AE9EAB1E40DB0E00E8BF03 /* Build configuration list for PBXNativeTarget "YZCityPickers" */;
+			buildPhases = (
+				54AE9E7A1E40DB0E00E8BF03 /* Sources */,
+				54AE9E7B1E40DB0E00E8BF03 /* Frameworks */,
+				54AE9E7C1E40DB0E00E8BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZCityPickers;
+			productName = YZCityPickers;
+			productReference = 54AE9E7E1E40DB0E00E8BF03 /* YZCityPickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54AE9E961E40DB0E00E8BF03 /* YZCityPickersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AE9EAE1E40DB0E00E8BF03 /* Build configuration list for PBXNativeTarget "YZCityPickersTests" */;
+			buildPhases = (
+				54AE9E931E40DB0E00E8BF03 /* Sources */,
+				54AE9E941E40DB0E00E8BF03 /* Frameworks */,
+				54AE9E951E40DB0E00E8BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AE9E991E40DB0E00E8BF03 /* PBXTargetDependency */,
+			);
+			name = YZCityPickersTests;
+			productName = YZCityPickersTests;
+			productReference = 54AE9E971E40DB0E00E8BF03 /* YZCityPickersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54AE9EA11E40DB0E00E8BF03 /* YZCityPickersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AE9EB11E40DB0E00E8BF03 /* Build configuration list for PBXNativeTarget "YZCityPickersUITests" */;
+			buildPhases = (
+				54AE9E9E1E40DB0E00E8BF03 /* Sources */,
+				54AE9E9F1E40DB0E00E8BF03 /* Frameworks */,
+				54AE9EA01E40DB0E00E8BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AE9EA41E40DB0E00E8BF03 /* PBXTargetDependency */,
+			);
+			name = YZCityPickersUITests;
+			productName = YZCityPickersUITests;
+			productReference = 54AE9EA21E40DB0E00E8BF03 /* YZCityPickersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AE9E761E40DB0E00E8BF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YZ.Shin;
+				TargetAttributes = {
+					54AE9E7D1E40DB0E00E8BF03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DVPT5R6X2;
+						ProvisioningStyle = Automatic;
+					};
+					54AE9E961E40DB0E00E8BF03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DVPT5R6X2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54AE9E7D1E40DB0E00E8BF03;
+					};
+					54AE9EA11E40DB0E00E8BF03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DVPT5R6X2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54AE9E7D1E40DB0E00E8BF03;
+					};
+				};
+			};
+			buildConfigurationList = 54AE9E791E40DB0E00E8BF03 /* Build configuration list for PBXProject "YZCityPickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54AE9E751E40DB0E00E8BF03;
+			productRefGroup = 54AE9E7F1E40DB0E00E8BF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AE9E7D1E40DB0E00E8BF03 /* YZCityPickers */,
+				54AE9E961E40DB0E00E8BF03 /* YZCityPickersTests */,
+				54AE9EA11E40DB0E00E8BF03 /* YZCityPickersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AE9E7C1E40DB0E00E8BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9E911E40DB0E00E8BF03 /* LaunchScreen.storyboard in Resources */,
+				54AE9E8E1E40DB0E00E8BF03 /* Assets.xcassets in Resources */,
+				54AE9E8C1E40DB0E00E8BF03 /* Main.storyboard in Resources */,
+				54AE9EBC1E40F28500E8BF03 /* CityData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E951E40DB0E00E8BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9EA01E40DB0E00E8BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AE9E7A1E40DB0E00E8BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9E891E40DB0E00E8BF03 /* ViewController.m in Sources */,
+				54AE9EBF1E40FFD400E8BF03 /* YZCityModel.m in Sources */,
+				54AE9E861E40DB0E00E8BF03 /* AppDelegate.m in Sources */,
+				54AE9EB61E40DB6800E8BF03 /* PickersViewController.m in Sources */,
+				54AE9E831E40DB0E00E8BF03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E931E40DB0E00E8BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9E9C1E40DB0E00E8BF03 /* YZCityPickersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E9E1E40DB0E00E8BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9EA71E40DB0E00E8BF03 /* YZCityPickersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54AE9E991E40DB0E00E8BF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AE9E7D1E40DB0E00E8BF03 /* YZCityPickers */;
+			targetProxy = 54AE9E981E40DB0E00E8BF03 /* PBXContainerItemProxy */;
+		};
+		54AE9EA41E40DB0E00E8BF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AE9E7D1E40DB0E00E8BF03 /* YZCityPickers */;
+			targetProxy = 54AE9EA31E40DB0E00E8BF03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54AE9E8A1E40DB0E00E8BF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AE9E8B1E40DB0E00E8BF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54AE9E8F1E40DB0E00E8BF03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AE9E901E40DB0E00E8BF03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54AE9EA91E40DB0E00E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54AE9EAA1E40DB0E00E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54AE9EAC1E40DB0E00E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZCityPickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZCityPickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54AE9EAD1E40DB0E00E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZCityPickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZCityPickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54AE9EAF1E40DB0E00E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZCityPickersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZCityPickersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZCityPickers.app/YZCityPickers";
+			};
+			name = Debug;
+		};
+		54AE9EB01E40DB0E00E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZCityPickersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZCityPickersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZCityPickers.app/YZCityPickers";
+			};
+			name = Release;
+		};
+		54AE9EB21E40DB0E00E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZCityPickersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZCityPickersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZCityPickers;
+			};
+			name = Debug;
+		};
+		54AE9EB31E40DB0E00E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZCityPickersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZCityPickersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZCityPickers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AE9E791E40DB0E00E8BF03 /* Build configuration list for PBXProject "YZCityPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9EA91E40DB0E00E8BF03 /* Debug */,
+				54AE9EAA1E40DB0E00E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AE9EAB1E40DB0E00E8BF03 /* Build configuration list for PBXNativeTarget "YZCityPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9EAC1E40DB0E00E8BF03 /* Debug */,
+				54AE9EAD1E40DB0E00E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54AE9EAE1E40DB0E00E8BF03 /* Build configuration list for PBXNativeTarget "YZCityPickersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9EAF1E40DB0E00E8BF03 /* Debug */,
+				54AE9EB01E40DB0E00E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54AE9EB11E40DB0E00E8BF03 /* Build configuration list for PBXNativeTarget "YZCityPickersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9EB21E40DB0E00E8BF03 /* Debug */,
+				54AE9EB31E40DB0E00E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AE9E761E40DB0E00E8BF03 /* Project object */;
+}
