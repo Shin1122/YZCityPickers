@@ -26,7 +26,7 @@ typedef void(^ChosenCity)(NSString *city);
 //海外tableview
 @property(nonatomic,strong) UITableView *overseasTableView ;
 
-//上一页面传值用的block
+//block
 @property(nonatomic,copy) ChosenCity chosenCity ;
 
 - (void)chooseCity:(ChosenCity)city;

@@ -41,7 +41,7 @@
     PickersViewController *pickers= [[PickersViewController alloc]init];
     [self presentViewController:pickers animated:YES completion:^{}];
     
-    //block回调选中的城市
+    //回调
     [pickers chooseCity:^(NSString *city) {
        
         [_addressBtn setTitle:city forState:UIControlStateNormal];
